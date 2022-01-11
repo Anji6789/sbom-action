@@ -1,6 +1,7 @@
 name: Re-tag releases
 
 on:
+  push:
   release:
     types: [published, edited]
 
